@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body{
+            background-color:wheat ;
+        }
+        .home{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        .in-flex{
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .in-flex:first-child{
+            flex: 2;
+            padding:30px;
+            background-color: saddlebrown;
+            margin: 10PX;
+            margin-bottom: 0px;
+        }
+        .in-flex div{
+            padding: 10px;
+            background:goldenrod;
+            margin:10PX;
+        }
+    </style>
+</head>
+<body>
+    <section class="home">
+        <div class="in-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum mollitia laudantium, ex nam molestiae similique dicta, esse hic numquam veniam placeat qui magnam ipsa optio obcaecati et odit distinctio?</div>
+        <div class="in-flex"> 
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam velit ipsam assumenda. Facere, aperiam. Tempora ipsam, quos ea alias provident praesentium, veniam culpa maiores optio non libero debitis unde soluta.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsa nemo. Officiis ipsa accusamus quia at velit quo, sit minus ducimus doloremque. Adipisci ipsa earum mollitia tempora blanditiis vitae esse!</div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
