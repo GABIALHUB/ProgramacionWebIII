@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             // Si no, agregar un nuevo item
             fetch("/create", {
-                method: "POST",
+            method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ nombre, descripcion })
             }).then(() => {
